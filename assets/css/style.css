@@ -1,0 +1,359 @@
+ #topbar {
+    background: #fff;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    z-index: 996;
+}
+.social {
+    padding: 0px 15px;
+}
+#topbar .contact-info i {
+    color: #1977cc;
+    padding-right: 4px;
+    margin-left: 15px;
+}
+#topbar .contact-info a {
+    color: #444444;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+#topbar .contact-info a:hover {
+    color: #1977cc;
+}
+#topbar .social a {
+    color: #437099;
+    padding-left: 11px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+#topbar .social a:hover {
+    color: #1977cc;
+}   
+
+header a{
+  text-decoration: none;
+}
+.icon {
+    display: none;
+}
+#h-demo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 16px;
+}
+#navbar ul.itam {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-inline-start: 110px;
+}
+#navbar ul.itam a {
+    color: #2c4964;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+    padding: 5px 7px;
+    transition: 0.5s;
+}
+#navbar ul.itam a:hover {
+    color: #1977cc;
+    border-color: #1977cc;
+}
+#navbar ul.itam li {
+    margin: 0 10px;
+}
+#h-demo .loga a {
+    color: #2c4964;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#header {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+    position: sticky;
+    top: 0;
+}
+#h-demo a.Make {
+    color: white;
+    background: #1977cc;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+#h-demo a.Make:hover {
+    background: #166ab5;
+}
+.home_img img {
+    width: 418px;
+    height: 418px;
+    border-radius: 100%;
+
+  
+}
+
+.home_img{
+text-align: center;
+}
+.home_social_ican i {
+    margin: 0 6px;
+    color: #01e6f1;
+    border: 2px solid #01e6f1;
+    padding: 8px 10px;
+    border-radius: 36px;
+    transition: 0.3s;
+}
+.home_social_ican i:hover {
+    background: #01e6f1;
+    color: white;
+}
+.home_button a {
+    margin: 0px 21px;
+    text-decoration: none;
+}
+.home_social_ican {
+    padding: 21px 0;
+}
+.home_button .Hire {
+    background: #00e5f4;
+    color: black;
+    font-weight: bold;
+    padding: 8px 33px;
+    border-radius: 100px;
+    transition: 0.3s;
+
+}
+.home_button .Hire:hover{
+    background: #00e5f4;
+    box-shadow: 0 0 10px 0 #00e5f4 inset, 0 0 20px 2px #00e5f4;
+
+  }
+  .home_button .Contact {
+    border: 2px solid #00e5f4;
+    padding: 8px 33px;
+    border-radius: 100px;
+    color: #00e5f4;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.home_button .Contact:hover{
+    background: #00e5f4;
+    box-shadow: 0 0 10px 0 #00e5f4 inset, 0 0 20px 2px #00e5f4;
+    color: black;
+
+}
+.home_contant h1 span {
+    text-shadow: 0 0 10px #fff, 0 0 20px #00e5f4, 0 0 30px #fff,
+    0 0 40px #00e5f4, 0 0 70px red, 0 0 80px blue,
+    0 0 100px orange, 0 0 150px #ffeb3b;
+    color: #00e5f4;
+}
+.home_contant h4 span {
+    color: #00e5f4;
+}
+#home {
+    border-bottom: 1px solid white;
+}
+.home_img {
+    background-image: url(../images/devraj1.jpg);
+    width: 100%;
+    height: 485px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.home_contant {
+    padding: 0 40px;
+}
+.Service_box {
+    background: rgb(1 230 241);
+    color: black;
+    padding: 60px 45px;
+    margin: 12px 0;
+    border-radius: 39px;
+    border: 4px solid rgb(1 230 241);
+    transition: 0.3s;
+    max-height: 274px;
+}
+.Service_box:hover {
+    background: white;
+}
+.Service_box h3 {
+    font-size: 33px;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span{
+    font-family: cursive;
+}
+
+.Educatio_box {
+    border: 4px solid;
+    border-image-slice: 1;
+    border-radius: 15px;
+    padding: 20px;
+    border-image-source: linear-gradient(45deg, #FF5722, #FFC107, #4CAF50);
+    box-shadow: 0 0 15px rgba(255, 87, 34, 0.8), /* Orange shadow */
+                0 0 25px rgba(255, 193, 7, 0.6),  /* Yellow shadow */
+                0 0 35px rgba(76, 175, 80, 0.8);
+    animation: animateBorder 5s linear infinite;
+    min-height: 178px;
+}
+
+
+/* Keyframes for border animation */
+@keyframes animateBorder {
+    0% {
+        border-image-source: linear-gradient(45deg, #FF5722, #FFC107, #4CAF50); /* Initial gradient */
+    }
+    100% {
+        border-image-source: linear-gradient(405deg, #4CAF50, #FFC107, #FF5722); /* Rotated gradient */
+    }
+}
+.col-lg-6.menner {
+    margin-top: 100px;
+}
+.High {
+    padding: 0px 69px;
+}
+.tem_profile img {
+    width: 40%;
+    border-radius: 100%;
+    margin: 12px 0;
+}
+.tem_profile {
+    text-align: center;
+    background: black;
+    padding: 20px 59px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.team_ican i {
+    color: yellow;
+}
+.tem_profile h3 {
+    margin: 12px 0;
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 9px 27px;
+    box-shadow: 9px 0px 10px rgb(0 0 0);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+@media (min-width:320px) and (max-width:990px){
+   .social{
+    display: none;
+   }
+   #topbar .contact-info a {
+    color: #444444;
+    text-decoration: none;
+    font-size: 11px;
+    transition: 0.5s;
+   }
+   nav {
+    display: none;
+}
+#navbar ul.itam {
+    display: block;
+    margin: 0;
+}
+.icon {
+    display: block;
+    color: #fffcfc;
+    background: black;
+    padding: 4px 10px;
+}
+span.md {
+    display: none;
+}
+.show{
+  display: block;
+}
+#navbar {
+    position: absolute;
+    top: 74px;
+    background: white;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+#navbar ul.itam li {
+    margin: 15px 0px;
+}
+ul.Down li {
+    padding: 7px 20px;
+}
+#topbar {
+    display: none !important;
+}
+.home_contant {
+    padding: 38px 7px !important;
+}
+.col-lg-6.menner {
+    margin-top: 0 !important;
+}
+.High {
+    padding: 0px 0px !important;
+}
+.row.text-end.mt-4 {
+    text-align: center !important;
+}
+#Service h1 {
+    padding: 0 0px !important;
+}
+.Service_box {
+    padding: 18px 20px;
+    border-radius: 0;
+    margin: 5px 0;
+}
+.Service_box h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.Service_box p {
+    font-size: 13px;
+}
+#Educatio {
+    padding: 28px 10px !important;
+}
+}
